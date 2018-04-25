@@ -46,7 +46,7 @@ link_directories(/usr/local/lib)
 link_directories(/usr/lib)
 link_directories(/home/verycloud/libyaml/src/.libs/)
 
-add_executable(libyaml_emitter_test ${SOURCE_ROOT_DIR}/libyaml-emitter.c)
+add_executable(libyaml_emitter_test ${SOURCE_ROOT_DIR}/libyaml-emitter-simple.c)
 #add_executable(libyaml_emitter_test ${SOURCE_ROOT_DIR}/tests/contrib/test_random.c)
 
 #link static libraries
